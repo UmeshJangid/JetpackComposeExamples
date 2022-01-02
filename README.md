@@ -5,6 +5,8 @@ Jetpack Compose is Android’s modern toolkit for building native UI. It simplif
 
 ![image](https://user-images.githubusercontent.com/10571832/147852792-6c9b0c40-7309-4408-ad0d-d004da39a755.png)
 
+Composable are written in capital letters(Not Compulsory).
+
 
 # Foundation
 
