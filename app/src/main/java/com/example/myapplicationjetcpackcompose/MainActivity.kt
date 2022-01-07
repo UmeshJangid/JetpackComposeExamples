@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.*
+import androidx.compose.material.Button
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
@@ -159,7 +160,11 @@ fun setList(list: List<String>) {
             for (listItem in list) {
                 SetText(text = listItem)
             }
+            Button(onClick = { },Modifier.wrapContentSize(align = Alignment.Center)) {
+                Text(text = "Add More Dynamic")
+            }
         }
+        
     }
 }
 
