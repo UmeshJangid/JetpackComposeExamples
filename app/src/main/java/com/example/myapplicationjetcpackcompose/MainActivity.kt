@@ -29,52 +29,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-/*@Composable
-fun showText(text: String) {
-    Text(
-        text = "Anything you write will append here $text. I am learning so testing with text.",
-        fontSize = 32.sp,
-        fontFamily = FontFamily.SansSerif,
-    )
-}*/
 
-/*@Composable
-fun IAMButton() {
-    Button(
-        onClick = {
-        Log.d(TAG, "IAMButton:")
-    }, Modifier.background(color = Color.Red).size(150.dp,60.dp).padding(all = 4.dp)
-    )
-    {
-        // I am Composable Fun again.
-        Text(text = "Click Me")
-    }
-}*/
-
-/*Surface is like View in Android.*/
-/*
-@Composable
-fun IAMSurfaceExample() {
-    Surface(
-        color = Color.LightGray,
-        modifier = Modifier.fillMaxSize()
-    ) {
-        Surface(
-            color = Color.Cyan,
-            modifier = Modifier.wrapContentSize(align = Alignment.BottomCenter)
-        ) {
-            Text(
-                text = "Make Me Wrap Content",
-                style = MaterialTheme.typography.h5
-            )
-        }
-
-    }
-}
-*/
-
-/* Row and Column Example */
-/* Row */
 
 @Composable
 fun IAMROWEX() {
